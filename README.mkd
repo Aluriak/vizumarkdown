@@ -1,0 +1,10 @@
+#VizuMarkdown
+
+Visualization of Markdown using converter to HTML and browser opening.
+
+Requirements:
+
+- [markdown](http://pythonhosted.org/Markdown)
+- python 3.3+
+
+
