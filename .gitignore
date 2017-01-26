@@ -87,3 +87,10 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+
+# ignore vim project
+Session.vim
+
+# ignore output files
+*.html
