@@ -1,10 +1,29 @@
 #VizuMarkdown
 
-Visualization of Markdown using converter to HTML and browser opening.
+Visualization of Markdown using converter to HTML and browser opening,
+using Font Awesome to implement (generalized) github-like boxes functionalities.
 
 Requirements:
 
 - [markdown](http://pythonhosted.org/Markdown)
-- python 3.3+
+- [font awesome](http://fontawesome.io/) css file (`font-awesome.min.css` for instance)
+
+
+## Usage
+
+    python vizumark.py <markdown file> <path to font awesome css file>
+
+For instance:
+
+    python vizumark.py README.mkd css/font-awesome.css
+
+
+## Formatting test
+
+Here is a checked box [x], and an empty one [ ], followed by a link [x]() and the firefox icon [f].
+Note that all FontAwesome icons are available [space-shuttle] !
+
+    # Note that boxes detection ignore code blocks
+    [1][ ]
 
 
